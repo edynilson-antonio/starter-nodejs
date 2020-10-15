@@ -1,0 +1,25 @@
+npm init -y
+node nomeArquivo.js
+npm run <nome-alias>
+
+--- Docker ---
+
+docker
+
+- baixar container
+docker pull <nome-imagem>
+
+- Subir a máquina/container
+docker run --name <como-quero-chamar-o-container> -p <porta-maquina>:<porta-servico> -d <qual-img-quero-utilizar-nome-img-baixada>
+docker run --name mongodb -p 27017:27017 -d mongo
+
+Dando tudo certo, será retornado uma hash
+
+Para verificar quais img estão rodando.
+docker ps
+
+Ver imagens que estão pausadas
+docker ps -a
+
+Start docker
+docker start <imagem>

@@ -1,0 +1,6 @@
+- Express (npm install express)
+- Nodemon (npm install --save-dev ou -D nodemon)
+- Mongoose (npm install mongoose)
+- RequireDir (npm install require-dir)
+- Mongoose Paginate (npm install mongoose-paginate)
+- CORS (npm install cors)
