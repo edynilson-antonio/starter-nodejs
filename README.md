@@ -1,2 +1,3 @@
-# starter-nodejs
-Código criado na trilha starter da rocketseat
+# NodeJS - Starter
+
+[Rocketseat](https://rocketseat.com.br/)
